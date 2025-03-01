@@ -1,5 +1,89 @@
+# Fichiers d'environnement
 .env
+.env.local
+.env.*.local
+
+# Cache Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Environnements virtuels
+venv/
+env/
+ENV/
+.venv/
+.env/
+
+# Logs
+*.log
+logs/
+
+# Fichiers système
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Fichiers d'éditeurs
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Fichiers temporaires
+tmp/
+temp/
+
+# Fichiers de données sensibles
+*.pem
+*.key<<<<<<< HEAD
+.env
+=======
+# Environnement
+.env
+.env.*
+!.env.example
+*.log
+
+# Node.js
+node_modules/
+npm-debug.log
+
+# Python
+>>>>>>> e9b2b45c892844533823074e4378d9f2bde3d894
 __pycache__/
 *.py[cod]
 *$py.class
 venv/
+<<<<<<< HEAD
+=======
+env/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+>>>>>>> e9b2b45c892844533823074e4378d9f2bde3d894
